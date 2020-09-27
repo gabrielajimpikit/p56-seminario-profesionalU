@@ -1,20 +1,19 @@
 var nombre = 'Gabriela'
 var apellido = 'Jimpikit'
 
-var nombre = 'Gabriela', apellido = 'Jimpikit'
+var nombre_ = 'Gabriela', apellido_ = 'Jimpikit'
 
-var nombreMayiusculas = nombre.toUpperCase()
+var nombreMayusculas = nombre.toUpperCase()
 var apellidoMayusculas = apellido.toUpperCase()
 
-
-//javaScript puro
-console.log( nombreMayusculas + ' ' + apellidoMayusculas)
-//  Especificacion de java Script EcmaScript +6
-console.log( '${nombre} ${apellidoMayusculas}') 
+// Javascript Puro
+console.log( nombreMayusculas + ' ' + apellidoMayusculas )
+// Especificación de Javascript - EcmaScript +6 
+console.log( `${nombre} ${apellidoMayusculas}` )
 
 var primeraLetraNombre = nombre.charAt(0)
 var longitudNombre = nombre.length
-var subcadenaNombre = nombre.substr(1,3)
+var subcadenaNombre = nombre.substr(1, 3)
 
 console.log( primeraLetraNombre )
 console.log( longitudNombre )
