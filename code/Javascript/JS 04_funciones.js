@@ -1,4 +1,4 @@
-var nombreApellido = 'Guillermo Pizarro'
+var nombreApellido = 'Gabriela Jimpikit'
 var edad = 37
 
 // Función tipo declarativa
@@ -17,6 +17,6 @@ var imprimirEdad3 = function(nombre, edad) {
 }
 
 imprimirEdad( nombreApellido, edad )
-imprimirEdad( 'Catalina Pizarro', 1 )
+imprimirEdad( 'Brijida Jimpikit', 1 )
 imprimirEdad2( nombreApellido, edad )
-imprimirEdad3( 'Sofía Pizarro', 4 )
+imprimirEdad3( 'Yaira Jimpikit', 4 )
