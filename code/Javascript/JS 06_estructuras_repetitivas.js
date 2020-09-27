@@ -1,19 +1,31 @@
-var contador = 0
-
-const avanzar = ( ) => {
-    numero = Math.random()
-    console.log( numero ) 
-    
-    resultado = numero < 0.25
-    return resultado 
+let persona = {
+    nombre: 'Alejandro',
+    apellido: 'Vega',
+    peso: 150, 
 }
 
-do {
-    contador++
-} while( !avanzar() )
+const INCREMENTAR_PESO = 3
+const DECREMENTAR_PESO = 2
 
-if ( contador == 1 ) {
-    console.log( `Se avanzó ${contador} vez.` )
-} else {
-    console.log( `Se avanzó ${contador} veces.` )
+const aumentarPeso = ( objeto ) => objeto.peso += INCREMENTAR_PESO
+const disminuyePeso = ( objeto ) => objeto.peso -= DECREMENTAR_PESO
+
+const comeMucho = () => Math.random() < 0.7
+const realizaDeporte = () => Math.random() < 0.2
+
+const META = persona.peso - 10
+
+console.log( `Al inicio del año ${persona.nombre} pesa ${persona.peso}.` )
+
+while( persona.peso > META ) {
+    if (comeMucho()) {
+        console.log('Aumenta el peso.')
+        aumentarPeso( persona )
+    }
+    if (realizaDeporte()) {
+        console.log('Disminuye el peso.')
+        disminuyePeso( persona )
+    }
 }
+
+console.log( `Al final del año ${persona.nombre} pesa ${persona.peso}.` )
