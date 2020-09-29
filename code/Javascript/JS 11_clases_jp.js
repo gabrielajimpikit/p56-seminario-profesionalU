@@ -38,7 +38,7 @@ heredaDe( Deportista, Persona )
 
 // Sobreescritura
 Deportista.prototype.saludar = function() {
-    console.log( `Hola soy ${this.nombre} ${this.apellido}, y soy deportista.` )
+    console.log( `Hola soy ${this.nombre} ${this.apellido}, y soy deportista.` ) 
 }
 
 var objeto1 = new Persona('Gabriela', 'Jimpikit', 1.63)
