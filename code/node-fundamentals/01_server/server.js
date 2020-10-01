@@ -18,6 +18,7 @@ router.post('/carrera', function(req, res) {
     } else {
         response.success( req, res, 'Ingreso de Carrera exitoso.', 201 )        
     }
+        
 })
 
 app.use( '/', express.static('public') )
