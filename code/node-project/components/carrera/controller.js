@@ -1,4 +1,6 @@
+const db = require('mongoose') 
 const storage = require('./storage')
+const controller = require('./controller') 
 
 function addCarrera(nombre, abreviatura, descripcion) {
     return new Promise((resolve, reject) => {

@@ -1,18 +1,5 @@
-const db = require( 'mongoose')
-const model = require('./model')
-const uri = "mongodb+srv://ups1:gaby2020@cluster0.kpcij.gcp.mongodb.net/utups?retryWrites=true&w=majority";
-
-db.Promise=global.Promise
-db.connect(uri, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    dbName: 'utups',
-})
-.then((data) => { console.log('[db] - Conectado con exito.')})
-.catch((error)=>{ console.error( '[error log] - '+ error)})
-
-
-const list = []
+const db = require('mongoose')
+const model = require('./model')     
 
 function addCarrera( objeto ) {
     const carrera = new model( objeto )

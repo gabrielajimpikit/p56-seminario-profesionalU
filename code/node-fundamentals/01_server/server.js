@@ -9,10 +9,10 @@ app.use( bodyParser.json() )
 app.use( bodyParser.urlencoded( {extended:false} ) ) 
 app.use( router )
 
-router.get('/carrera', function(req, res) {
+router.get('/', function(req, res) {
     response.success( req, res, 'Lista de Carreras de la UPS.', 200 ) 
 })
-router.post('/carrera', function(req, res) {
+router.post('/', function(req, res) {
     if (req.query.error == 'ok') {
         response.error( req, res, 'Error al ingresar la Carrera.', 500 )        
     } else {

@@ -1,5 +1,6 @@
-const mongoose = require('mongoose')
+const db = require('mongoose')
 const schema = mongoose.Schema
+const controller = require('./controller')
 
 const mySchema = new schema({
     nombre: {
