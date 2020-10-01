@@ -1,4 +1,4 @@
-const db = require('mongoose')
+/*/const db = require('mongoose')
 const schema = mongoose.Schema
 const controller = require('./controller')
 
@@ -15,4 +15,4 @@ const mySchema = new schema({
 })
 
 const model = mongoose.model( 'Carrera', mySchema )
-module.exports = model
+module.exports = model*/

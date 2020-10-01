@@ -1,4 +1,4 @@
-const storage = require('./storage')
+/*/const storage = require('./storage')
 
 function addDocente(nombre, apellido, correo_electronico) {
     return new Promise((resolve, reject) => {
@@ -43,4 +43,4 @@ module.exports = {
     getDocentes,
     updateDocente,
     deleteDocente,
-}
+}*/

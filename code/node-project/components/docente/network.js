@@ -1,4 +1,4 @@
-const express = require('express')
+/*/const express = require('express')
 const response = require('../../network/response')
 const controller = require('./controller') 
 
@@ -46,4 +46,4 @@ router.delete('/', function(req, res) {
 })
 
 
-module.exports = router
+module.exports = router*/

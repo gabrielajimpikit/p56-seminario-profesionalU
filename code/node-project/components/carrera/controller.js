@@ -1,4 +1,4 @@
-const db = require('mongoose') 
+/*/const db = require('mongoose') 
 const storage = require('./storage')
 const controller = require('./controller') 
 
@@ -45,4 +45,4 @@ module.exports = {
     getCarreras,
     updateCarrera,
     deleteCarrera,
-}
+}*/

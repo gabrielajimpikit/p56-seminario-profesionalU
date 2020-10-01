@@ -1,4 +1,4 @@
-const express = require('express')
+/*/const express = require('express')
 const carrera = require('../components/carrera/network')
 const docente = require('../components/docente/network')
 
@@ -7,4 +7,4 @@ const routes = function(server) {
     server.use('/docente', docente)
 }
 
-module.exports = routes
+module.exports = routes*/

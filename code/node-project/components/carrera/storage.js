@@ -1,4 +1,4 @@
-const db = require('mongoose')
+/*/const db = require('mongoose')
 const model = require('./model')     
 
 function addCarrera( objeto ) {
@@ -35,4 +35,4 @@ module.exports = {
     get: getCarreras,
     update: updateCarrera,
     delete: deleteCarrera,
-}
+}*/

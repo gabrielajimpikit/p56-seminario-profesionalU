@@ -1,4 +1,4 @@
-const model = require('./model')
+/*/const model = require('./model')
 
 function addDocente( objeto ) {
     const docente = new model( objeto )
@@ -34,4 +34,4 @@ module.exports = {
     get: getDocentes,
     update: updateDocente,
     delete: deleteDocente,
-}
+}*/
